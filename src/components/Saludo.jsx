@@ -7,8 +7,7 @@ function Saludo(){
     ]
     return(
         <>
-        <h1 className='SaludoComponente'>Soy Johan Jairo  Cruz Huaman </h1>
-        <p>Bienvenido a la creaciòn de aplicaciones con  React</p>
+        <h1 className='SaludoComponente'>Bienvenido a la creaciòn de aplicaciones con  React</h1>
         <h2>Lista de mis comidas favoritas</h2>
         <ol>
             <li>{comidasFavorito[0]}</li>

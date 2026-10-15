@@ -1,13 +1,16 @@
 import Saludo from "./components/Saludo";
 
 function App() {
-  const amigo = "Daniel";
+  const profesor = "Edwind";
 
   return (
     <>
-      <h1>Mi primera aplicación React</h1>
-      <p>Estoy aprendiendo React.</p>
-      <p>Tengo una buena amistad con mi amigo {amigo}.</p>
+      <h1>Johan Jairo Cruz Huaman</h1>
+      <p>Soy estudiante de Programación Web y estoy aprendiendo React.</p>
+      <p>Gracias  a mi profesor {profesor}.</p>
+      <section>
+        Estoy aprendiendo React para desarrollar mis habilidades en programación web.
+      </section>
       <Saludo />
     </>
   );
